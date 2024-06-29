@@ -8,6 +8,7 @@ html {
     font-size: 62.5%;
 }
 body {
+    font-family: "Sora";
     font-size: 1.6rem;
 }
 /* Commom */
@@ -39,6 +40,20 @@ a {
     color: #2e80ce;
     background: transparent;
     cursor: pointer;
+}
+.section__heading {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #10375c;
+}
+.section_desc {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575f66;
 }
 /* Header */
 .header {
@@ -146,7 +161,7 @@ a {
 }
 .hero__heading {
     font-weight: 600;
-    font-size: 8rem;
+    font-size: 7rem;
     line-height: 1.14;
     letter-spacing: -0.02em;
     color: #fff;
@@ -154,7 +169,7 @@ a {
 .hero__desc {
     margin-top: 22px;
     font-weight: 300;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 1.67;
     color: #c9d2da;
 }
@@ -188,4 +203,27 @@ a {
 .hero__img:last-child {
     width: 210px;
     height: 410px;
+}
+/* Services */
+.service {
+    padding: 170px 0;
+}
+.service__desc,
+.service__heading {
+    text-align: center;
+}
+.service__desc {
+    max-width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.service__img {
+    width: 570px;
+    height: 570px;
+    border-radius: 6px;
 }
